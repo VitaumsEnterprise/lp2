@@ -1,0 +1,7 @@
+Um TAD (Tipo Abstrato de Dado) é uma metodologia que tem a proposta de reduzir a informação necessária para a criação/programação de um algoritmo, através da abstração das variáveis;
+
+Classe é uma estrutura que possui um conjunto de objetos e métodos com características similares.
+
+Objeto é uma referência a um local da memória que possui um valor. Um objeto passa a existir definido pela classe, e esta define o comportamento do objeto, usando atributos e métodos.
+
+Mensagem é uma espécie de 'mensagem fictícia' que ocorre dentro do sistema para exibir diretamente uma classe com finalidade de usá-la ou simplesmente demonstrar os estados da classe.

@@ -1,0 +1,1 @@
+Um novo objeto é criado dentro da classe na qual se foi escolhida quando a palavra chave "new" é utilizada em um algoritmo.
