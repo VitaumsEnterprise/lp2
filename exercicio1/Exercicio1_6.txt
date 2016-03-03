@@ -1,0 +1,2 @@
+No exercício 3, o resultado de quaisquer operação era mostrado em valores Inteiros, portanto se o resultado desse 0.3547, seria mostrado 0.
+Já nos exercícios 4 e 5, o resultado da divisão era mostrado em valores decimais, que permitiam a resposta correta.
