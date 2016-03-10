@@ -15,8 +15,10 @@ public class TrabalhoPalindromo{
             //Inverter a String(2 linhas)
             StringBuffer txtrever = new StringBuffer(teste);
             txtrever.reverse();
-            if(txtrever.equals(teste)){
+			String rever = txtrever.toString();
+            if(teste.equals(rever)){
                 System.out.println("A palindrome encontrada foi: " + teste);
+				System.out.println("Posição: " + (i+1) + "-" + (i+palSize));
                 bool=true;
             }
         }
