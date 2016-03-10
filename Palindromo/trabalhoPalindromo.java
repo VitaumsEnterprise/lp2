@@ -1,12 +1,29 @@
-public class trabalhoPolíndromo{
-    public static void main(String[]args) {
-        String text = args[0],retorno="";
+//Erstellung von Vitaum
+
+public class TrabalhoPalindromo{
+    public static void main(String[]args){
+        boolean  bool=false;
+        //Acionar uma String informada como Parâmetro
+        String text = args[0],teste="";
         String palSizeS = args[1];
+        //PalSize é o tamanho da palíndrome dentro da palavra
         int palSize = Integer.parseInt(palSizeS);
+        //Size é o tamanho da palavra
         int size = text.length();
-        int testVezes = size - palSize + 1;
-        //Inverter a String(2 linhas)
-        StringBuffer sb = new StringBuffer(text);
-        sb.reverse();
+        //Número de testes(no caso de "batata" será 2)
+        int testVezes = size - palSize;
+        for(int i=0;i<=testVezes;i++){
+            teste = text.substring(i,i+palSize);
+            //Inverter a String(2 linhas)
+            StringBuffer txtrever = new StringBuffer(teste);
+            txtrever.reverse();
+            if(txtrever.equals(teste)){
+                System.out.println("A palindrome encontrada foi: " + teste);
+                bool=true;
+            }
+        }
+        if(bool==false){
+            System.out.println("Nao foi encontrada uma palindrome");
+        }
     }
 }
