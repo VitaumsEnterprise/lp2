@@ -1,4 +1,4 @@
-public class TrabalhoPolíndromo{
+public class trabalhoPolíndromo{
     public static void main(String[]args) {
         String text = args[0],retorno="";
         String palSizeS = args[1];
