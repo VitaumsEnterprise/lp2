@@ -5,9 +5,7 @@ public class TrabalhoPalindromo{
         boolean  bool=false;
         //Acionar uma String informada como Parâmetro
         String text = args[0],teste="";
-        String palSizeS = args[1];
-        //PalSize é o tamanho da palíndrome dentro da palavra
-        int palSize = Integer.parseInt(palSizeS);
+        int palSize = 5;
         //Size é o tamanho da palavra
         int size = text.length();
         //Número de testes(no caso de "batata" será 2)
