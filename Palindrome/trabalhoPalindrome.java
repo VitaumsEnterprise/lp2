@@ -18,8 +18,9 @@ public class TrabalhoPalindromo{
 			String rever = txtrever.toString();
             if(teste.equals(rever)){
                 System.out.println("A palindrome encontrada foi: " + teste);
-				System.out.println("Posição: " + (i+1) + "-" + (i+palSize));
+		System.out.println("Posição: " + (i+1) + "-" + (i+palSize));
                 bool=true;
+                System.exit(0);
             }
         }
         if(bool==false){
